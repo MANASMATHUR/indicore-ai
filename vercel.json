@@ -1,10 +1,7 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/frontend/index.html" }
-  ],
-  "static": {
-    "frontend": {
-      "public": true
-    }
-  }
+    { "source": "/", "destination": "/frontend/index.html" },
+    { "source": "/free", "destination": "/frontend/free.html" },
+    { "source": "/indicore-ai", "destination": "/frontend/Indicore-Ai.html" }
+  ]
 }
